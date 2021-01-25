@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap");
+@font-face {
+  font-family: "h1";
+  src: url("../font/Yorktown.ttf");
+}
+body {
+  background-color: #fafafa;
+  min-height: 100vh;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+}
+
+header h1 {
+  width: fit-content;
+  cursor: pointer;
+  font-family: "h1";
+  font-size: 4rem;
+}
+
+h5 {
+  font-weight: 800;
+}
+
+strong {
+  font-weight: 600;
+}
+
+.source-card, .news-card {
+  box-shadow: 0 0 5px #858585;
+  cursor: pointer;
+}
+.source-card img, .news-card img {
+  object-fit: cover;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+@media screen and (min-width: 768px) {
+  .source-card {
+    height: 250px;
+  }
+
+  .news-card img {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0.25rem;
+  }
+
+  .news-info {
+    width: 90%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
